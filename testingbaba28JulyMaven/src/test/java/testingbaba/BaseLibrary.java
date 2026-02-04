@@ -13,6 +13,7 @@ public class BaseLibrary {
 	public void launchUrl()
 	{
 		WebDriver driver = new EdgeDriver();
+		driver.get("https://testingbaba.com/old/");
 	}
 	
 }
